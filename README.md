@@ -12,3 +12,11 @@ Validating HTTP status codes,
 Handling positive and negative scenarios
 
 Technologies used: C#, .Net, NUnit, RestSharp, ReqRes API
+
+How to run the tests:
+
+1. Open the solution in Visual Studio
+2. Restore NuGet packages
+3. Click on View from the top menu
+4. Click on Test Explorer
+5. Run all tests from the top left corner
