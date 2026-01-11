@@ -7,8 +7,8 @@ The repository demonstrates API test automation on the website ReqRes API, which
 
 The goal is to showcase QA automation skills like:
 
-Writing automated API tests
-Validating HTTP status codes
+Writing automated API tests,
+Validating HTTP status codes,
 Handling positive and negative scenarios
 
 Technologies used: C#, .Net, NUnit, RestSharp, ReqRes API
