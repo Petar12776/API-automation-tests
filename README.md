@@ -3,7 +3,7 @@ This repository contains a collection of Automated API Tests with CRUD operation
 
 Repository Overview:
 
-This repository demonstrates API test automation on the website ReqRes API, which a commonly used website for API testing.
+The repository demonstrates API test automation on the website ReqRes API, which a commonly used website for API testing.
 
 The goal is to showcase QA automation skills like:
 
