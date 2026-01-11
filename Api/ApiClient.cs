@@ -14,7 +14,7 @@ public class ApiClient
 
     public RestResponse GetUserByID(int userID)
     {
-        var request = new RestRequest($"/users/{userID}", Method.Get);
+        var request = new RestRequest($"/users/userID", Method.Get);
 
         return _client.Execute(request);
     }
@@ -37,14 +37,14 @@ public class ApiClient
 
     public RestResponse DeleteUser(int userID)
     {
-        var request = new RestRequest($"/users/{userID}", Method.Delete);
+        var request = new RestRequest($"/users/userID", Method.Delete);
 
         return _client.Execute(request);
     }
 
     public RestResponse UpdateUser(int userID, string name, string job)
     {
-        var request = new RestRequest($"users/{userID}", Method.Put);
+        var request = new RestRequest($"users/userID", Method.Put);
 
         request.AddJsonBody(new { name = name, job = job });
 
